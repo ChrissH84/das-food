@@ -93,7 +93,7 @@ header .navigation li a:hover {
     background: rgb(251, 187, 78);
     display: inline-block;
     padding: 10px 30px;
-    margin-top: 20px;
+    margin-top: 30px;
     text-transform: uppercase;
     text-decoration: none;
     letter-spacing: 2px;
@@ -542,4 +542,11 @@ section{
     .hero-section .hero-content h2 {
         font-size: 2.2rem; 
      }
+     .testimonials-section .testimonials-content .box {
+        margin: 20px 0;
+     }
+     .testimonials-section .testimonials-content .box .img-box  {
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
